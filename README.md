@@ -59,26 +59,13 @@ So if you'd like to make our home component nearly perfect, add those skeletons 
 
 <img src="./readme-assets/screen02.png" alt='End of 4th task screenshot' width="250">
 
-## Task #5 (optional) 📋
-What if we wanted to communicate the requirements of how this page should work or write a test case covering some core functionality? Here, we discovered a way of doing both by incorporating [Behaviour-Driven Development (BDD)](https://cucumber.io/docs/bdd/) into our development workflow.
-BDD is a way for software teams to work that closes the gap between business people and technical people by producing system documentation that is based the system’s behavior.
+Feel free to add other features if you think that something is missing.
 
-What is Gherkin?
-Gherkin is a type of syntax, used by us to not only document how the system behaves, but also define test cases for automated testing (See [What is Gherkin](https://cucumber.io/docs/gherkin/reference/)).
 
-After you get familiar with BDD and The Gherkin syntax through the links provided, create one or more scenarios that would describe what you think could be the core functionalities in the app.
-
-Use the syntax provided in the Gherkin reference, and do not forget the [keywords](https://cucumber.io/docs/gherkin/reference/#keywords).
-For example:
-
-```gherkin
-Feature: Assets
-   Scenario: User displays the list of assets
-      Given the user is on the home page
-      Then a list of all assets is displayed
-```
-
-Since the current functionality of our dummy app is rather limited, you can also try defining new functionality that does not yet exist. 
+## Submission instructions
+- **DO NOT** publish your project on a public repository.
+- Please send us a .zip file containing this project
+- To significantly reduce the size of the file, remove the `/_node_modules_/` folder.
 
 # Helpful Links
 
