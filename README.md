@@ -8,13 +8,17 @@ Follow the instructions in the next section to get your project set up properly.
 You might be familiar with Angular but not Ionic - and this is completely fine. Think of Ionic as a library of UI components for now and don't get confused with other features Ionic can bring. We won't go further than importing some ready-to-use components from the Ionic library in this project.
 
 ## Getting started
-0. Fork the repository
 1. Make sure you have [Node.js](https://nodejs.org/en/) (v16+) and [npm](https://www.npmjs.com/) installed. If not, follow the links and find the installation instructions
 2. Install the [Angular CLI](https://cli.angular.io/) and [Ionic CLI](https://ionicframework.com/docs/cli) globally by executing
    `npm install -g @angular/cli` and `npm install -g @ionic/cli` in your terminal
 3. Clone or download your forked project (`git@github.com:<your_username>/dynaway-homework.git`) and go to the project folder (`cd dynaway-homework`)
 4. Install all dependencies with `npm install`
 5. Run `npm run start`. Your app should be now up and running on [localhost:4200](http://localhost:4200)!
+
+## Submission instructions
+- **DO NOT** publish your project on a public repository.
+- Please send us a .zip file containing this project
+- To significantly reduce the size of the file, remove the `/_node_modules_/` folder.
 
 ## Task #1 🐞
 You've probably noticed that the app is running, yet we can't see any content 😕. It might have happened that a bug sneaked into our code. Can you find it and fix it? 
@@ -60,12 +64,6 @@ So if you'd like to make our home component nearly perfect, add those skeletons 
 <img src="./readme-assets/screen02.png" alt='End of 4th task screenshot' width="250">
 
 Feel free to add other features if you think that something is missing.
-
-
-## Submission instructions
-- **DO NOT** publish your project on a public repository.
-- Please send us a .zip file containing this project
-- To significantly reduce the size of the file, remove the `/_node_modules_/` folder.
 
 # Helpful Links
 
