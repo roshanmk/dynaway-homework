@@ -11,7 +11,7 @@ You might be familiar with Angular but not Ionic - and this is completely fine. 
 1. Make sure you have [Node.js](https://nodejs.org/en/) (v16+) and [npm](https://www.npmjs.com/) installed. If not, follow the links and find the installation instructions
 2. Install the [Angular CLI](https://cli.angular.io/) and [Ionic CLI](https://ionicframework.com/docs/cli) globally by executing
    `npm install -g @angular/cli` and `npm install -g @ionic/cli` in your terminal
-3. Clone or download your forked project (`git@github.com:<your_username>/dynaway-homework.git`) and go to the project folder (`cd dynaway-homework`)
+3. Clone or download the project (`git@github.com:<your_username>/dynaway-homework.git`) and go to the project folder (`cd dynaway-homework`)
 4. Install all dependencies with `npm install`
 5. Run `npm run start`. Your app should be now up and running on [localhost:4200](http://localhost:4200)!
 
