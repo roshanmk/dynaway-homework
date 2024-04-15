@@ -11,14 +11,15 @@ You might be familiar with Angular but not Ionic - and this is completely fine. 
 1. Make sure you have [Node.js](https://nodejs.org/en/) (v16+) and [npm](https://www.npmjs.com/) installed. If not, follow the links and find the installation instructions
 2. Install the [Angular CLI](https://cli.angular.io/) and [Ionic CLI](https://ionicframework.com/docs/cli) globally by executing
    `npm install -g @angular/cli` and `npm install -g @ionic/cli` in your terminal
-3. Clone or download the project (`git@github.com:<your_username>/dynaway-homework.git`) and go to the project folder (`cd dynaway-homework`)
+3. Clone the project (`git@github.com:<your_username>/dynaway-homework.git`) and go to the project folder (`cd dynaway-homework`)
 4. Install all dependencies with `npm install`
 5. Run `npm run start`. Your app should be now up and running on [localhost:4200](http://localhost:4200)!
 
 ## Submission instructions
 - **DO NOT** publish your project on a public repository.
-- Please send us a .zip file containing this project
+- - Please send us a `.zip` file of your entire project directory including the `.git` folder
 - **Remember to include the .git folder** at the root of the project so that we can see the commits you've made
+   - Ensure you create the ZIP file manually and do not use the "Download ZIP" option from hosting services (like GitHub) as it does not include the `.git` directory.
 - To significantly reduce the size of the file, remove the gitignore-d files (like `node_modules` and `.angular`) folders.
 
 ## Task #1 🐞
