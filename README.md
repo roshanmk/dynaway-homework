@@ -18,7 +18,7 @@ You might be familiar with Angular but not Ionic - and this is completely fine. 
 ## Submission instructions
 - **DO NOT** publish your project on a public repository.
 - Please send us a .zip file containing this project
-- To significantly reduce the size of the file, remove the `/_node_modules_/` and `.angular` folders.
+- To significantly reduce the size of the file, remove the gitignore-d files (like `node_modules` and `.angular`) folders.
 
 ## Task #1 🐞
 You've probably noticed that the app is running, yet we can't see any content 😕. It might have happened that a bug sneaked into our code. Can you find it and fix it? 
