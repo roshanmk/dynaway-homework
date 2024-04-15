@@ -18,6 +18,7 @@ You might be familiar with Angular but not Ionic - and this is completely fine. 
 ## Submission instructions
 - **DO NOT** publish your project on a public repository.
 - Please send us a .zip file containing this project
+- **Remember to include the .git folder** at the root of the project so that we can see the commits you've made
 - To significantly reduce the size of the file, remove the gitignore-d files (like `node_modules` and `.angular`) folders.
 
 ## Task #1 🐞
