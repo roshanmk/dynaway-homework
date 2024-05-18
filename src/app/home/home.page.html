@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="primary">
-    <ion-title>
-      Dynaway Homework
-    </ion-title>
+    <ion-title> Dynaway Homework </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -15,7 +13,12 @@
 
   <ion-grid class="list">
     <ion-row>
-      <ion-col *ngFor="let asset of assets" size-xl="4" size-md="6" size="12">
+      <ion-col
+        *ngFor="let asset of (assets.data ? assets.data :placeholders)"
+        size-xl="4"
+        size-md="6"
+        size="12"
+      >
         <app-asset-card [asset]="asset"></app-asset-card>
       </ion-col>
     </ion-row>
