@@ -10,7 +10,7 @@ import { ToastController } from '@ionic/angular';
 })
 export class HomePage {
   assets: any = []
-  placeholders: any = Array(6).fill(0);
+  placeholders: any = Array(6).fill(false);
   constructor(private assetService: AssetService, private toastController: ToastController) { }
 
   ionViewWillEnter(): void {
