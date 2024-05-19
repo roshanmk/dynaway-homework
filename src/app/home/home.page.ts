@@ -17,7 +17,11 @@ export class HomePage {
   ionViewWillEnter(): void {
     this.assets = []
     this.assetService.getAll().subscribe({
-      next: response => { this.assets = response?.data },
+      next: response => {
+        if (response.ok){
+          this.assets = response.data;
+        }
+      },
       error: error => {
         this.presentErrorToast();
         console.error('Error fetching assets:', error);
