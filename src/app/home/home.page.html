@@ -14,7 +14,7 @@
   <ion-grid class="list">
     <ion-row>
       <ion-col
-        *ngFor="let asset of (assets.data ? assets.data :placeholders)"
+        *ngFor="let asset of (assets.length > 0 ? assets :placeholders)"
         size-xl="4"
         size-md="6"
         size="12"

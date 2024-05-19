@@ -1,6 +1,7 @@
 import { Component } from '@angular/core'
 import { AssetService } from '../shared/services/asset.service'
 import { ToastController } from '@ionic/angular';
+import { Asset } from '../shared/models/asset.model';
 
 
 @Component({
@@ -9,14 +10,14 @@ import { ToastController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  assets: any = []
-  placeholders: any = Array(6).fill(false);
+  assets: Asset[] = []
+  placeholders: Asset[] = Array(6).fill(false);
   constructor(private assetService: AssetService, private toastController: ToastController) { }
 
   ionViewWillEnter(): void {
     this.assets = []
     this.assetService.getAll().subscribe({
-      next: assets => { this.assets = assets },
+      next: response => { this.assets = response?.data },
       error: error => {
         this.presentErrorToast();
         console.error('Error fetching assets:', error);
