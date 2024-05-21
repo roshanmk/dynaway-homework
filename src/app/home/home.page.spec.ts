@@ -13,7 +13,7 @@ describe('HomePage', () => {
 
   beforeEach(waitForAsync(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomePage ],
+      declarations: [HomePage],
       imports: [IonicModule.forRoot()]
     }).compileComponents()
 
@@ -58,7 +58,12 @@ describe('HomePage test cases', () => {
       locationId: 'string',
       locationName: 'string'
     }];
-    assetServiceSpy.getAll.and.returnValue(of(assets));
+
+    const ResponseValue = {
+      ok: true,
+      data: assets
+    }
+    assetServiceSpy.getAll.and.returnValue(of(ResponseValue));
 
     component.ionViewWillEnter();
 
